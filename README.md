@@ -45,23 +45,23 @@ cd smartops
 # Terraform
 - Navigate to the iac/terraform/ directory.
 - Initialize Terraform:
-```terraform init
+terraform init
 
 
 - Apply the Terraform configuration:
-```terraform apply
+terraform apply
 
 # Ansible
 - Navigate to the iac/ansible/ directory.
 - Run the Ansible playbook:
-```ansible-playbook playbook.yml -i inventory
+ansible-playbook playbook.yml -i inventory
 
 # Set Up Monitoring
 
 ### Prometheus
 - Navigate to the monitoring/prometheus/ directory.
 - Start Prometheus using the configuration file:
-```prometheus --config.file=prometheus.yml
+prometheus --config.file=prometheus.yml
 
 
 ## Contributing
